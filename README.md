@@ -4,17 +4,17 @@ This repository contains the implementation of a simple Central Processing Unit 
 ## Project Overview  
 The CPU integrates several key components to perform arithmetic and logical operations effectively:  
 
-- **Latches for Memory**: Used for data storage.  
-- **Moore Finite State Machine (FSM)**: Governs the control flow.  
-- **Decoder**: Decodes instruction sets for the CPU.
+- **Latches**: Used for data storage and later retrieval.
+- **Moore Finite State Machine (FSM)**: Governs the control flow in orderly manner.  
+- **Decoder**: Decodes instruction sets for the CPU and outputs the appropriate instructions.
 - **Arithmetic Logic Unit (ALU)**: Core component performing arithmetic and logical operations.  
 - **Seven-Segment Displays**: Provides a visual representation of outputs.
 
-## Features
+## Feature
 
 - **Synchronous Operation**: Common clock signal allows for all components in the circuit to operate instantaneously upon command.
 
-## Tools Used  
+## Tool Used
 - **Quartus II**: Used for development, simulation, and waveform analysis.  
 
 ## How It Works  
