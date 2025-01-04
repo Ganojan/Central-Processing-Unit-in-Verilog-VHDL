@@ -8,4 +8,3 @@
 
 ## Screenshot of ALU 3 Block Diagram
 ![image](https://github.com/user-attachments/assets/838bb98b-f5ca-4bbd-956d-bacb6fb909f1)
-
