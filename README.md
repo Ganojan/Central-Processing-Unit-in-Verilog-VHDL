@@ -10,10 +10,9 @@ The CPU integrates several key components to perform arithmetic and logical oper
 - **Arithmetic Logic Unit (ALU)**: Core component performing arithmetic and logical operations.  
 - **Seven-Segment Displays**: Provides a visual representation of outputs.
 
-## Features  
-- Rewritten from VHDL to Verilog for improved design and functionality.  
-- Modular structure allowing individual testing and debugging of components.  
-- Waveform-based testing and validation using Quartus II, ensuring the accurate operation of individual components and the CPU as a whole.  
+## Features
+
+- **Synchronous Operation**: Common clock signal allows for all components in the circuit to operate instantaneously upon command.
 
 ## Tools Used  
 - **Quartus II**: Used for development, simulation, and waveform analysis.  
@@ -21,8 +20,8 @@ The CPU integrates several key components to perform arithmetic and logical oper
 ## How It Works  
 The components of this CPU work in unison to execute operations as instructed:  
 
-1. The **decoder** interprets incoming instructions.  
-2. The **Moore FSM** manages the control signals to coordinate data flow between components.  
-3. Data storage and retrieval occur in **latches for memory**.  
-4. The **ALU core** executes the arithmetic and logical operations.  
-5. Outputs are displayed on the **seven-segment displays** for user interpretation.  
+1. The 2 **latches** capture the 8-bit inputs to be used in the calculations.
+2. The **Moore FSM** manages the control signals to coordinate data flow in order.  
+3. The **decoder** interprets incoming signal from FSM and gives instruction to the ALU on what calculation to perform. 
+4. The **ALU core** retrieves input from the **latches** and **decoder** and executes the arithmetic and logical operations.  
+6. Outputs are displayed on the **seven-segment displays** for user interpretation.
