@@ -5,3 +5,6 @@
 
 ## Screenshot of ALU 2 Block Diagram
 ![image](https://github.com/user-attachments/assets/22e5f6e3-24b4-47e9-917e-46c4f887b67e)
+
+## Screenshot of ALU 3 Block Diagram
+![image](https://github.com/user-attachments/assets/76d52576-7f32-49f7-bafb-33a7537d2655)
