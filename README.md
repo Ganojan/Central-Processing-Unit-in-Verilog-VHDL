@@ -6,9 +6,9 @@ The CPU integrates several key components to perform arithmetic and logical oper
 
 - **Latches for Memory**: Used for data storage.  
 - **Moore Finite State Machine (FSM)**: Governs the control flow.  
-- **Decoder**: Decodes instruction sets for the CPU.  
-- **Seven-Segment Displays**: Provides a visual representation of outputs.  
+- **Decoder**: Decodes instruction sets for the CPU.
 - **Arithmetic Logic Unit (ALU)**: Core component performing arithmetic and logical operations.  
+- **Seven-Segment Displays**: Provides a visual representation of outputs.
 
 ## Features  
 - Rewritten from VHDL to Verilog for improved design and functionality.  
