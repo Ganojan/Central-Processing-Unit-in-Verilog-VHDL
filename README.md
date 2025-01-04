@@ -15,7 +15,7 @@ The CPU integrates several key components to perform arithmetic and logical oper
 - **Synchronous Operation**: Common clock signal allows for all components in the circuit to operate instantaneously upon command.
 
 ## Tool Used
-- **Quartus II**: Used for development, simulation, and waveform analysis.  
+- **Quartus II**: Used for development, simulation, and waveform analysis to verify the operation of the CPU.
 
 ## How It Works  
 The components of this CPU work in unison to execute operations as instructed:  
