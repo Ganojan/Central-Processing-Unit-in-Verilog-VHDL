@@ -1,4 +1,4 @@
-# Central-Processing-Unit-in-Verilog-VHDL
+# Central Processing Unit in Verilog and VHDL
 This repository contains the implementation of a simple Central Processing Unit (CPU) designed using Verilog and VHDL. Utilising important components of digital logic, including latches, a Moore FSM, ALU, decoder, and seven-segment displays, I was able to create a simple CPU that performs basic arithmetic and logical functions. The project was originally written in VHDL code as part of the final project for my digital circuit course. I decided to write the program in Verilog code and also refine the program such that it works flawlessly without any issues at all.
 
 ## Project Overview  
