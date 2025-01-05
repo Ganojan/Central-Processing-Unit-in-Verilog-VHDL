@@ -28,7 +28,7 @@ The CPU integrates several key components to perform arithmetic and logical oper
 ## How It Works  
 The components of this CPU work in unison to execute operations as instructed:  
 
-1. The 2 **latches** capture the 8-bit inputs to be used in the calculations.
+1. The **2 latches** capture the 8-bit inputs to be used in the calculations.
 2. The **Moore FSM** manages the control signals to coordinate data flow in order.  
 3. The **decoder** interprets incoming signal from FSM and instructs the ALU on what calculation to perform. 
 4. The **ALU core** retrieves input from the **latches** and instruction from the **decoder** and executes the arithmetic and logical operations.  
