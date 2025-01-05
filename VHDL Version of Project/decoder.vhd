@@ -1,13 +1,13 @@
 LIBRARY ieee ;
 USE ieee.std_logic_1164.all ;
 
-ENTITY decoder2 IS
+ENTITY decoder IS
 	PORT ( w  : IN	STD_LOGIC_VECTOR(3 DOWNTO 0);
 			 En : IN	STD_LOGIC ;
 			 y  : OUT STD_LOGIC_VECTOR(15 DOWNTO 0));
-	END decoder2;
+	END decoder;
 
-ARCHITECTURE Behavior OF decoder2 IS
+ARCHITECTURE Behavior OF decoder IS
 BEGIN
 	PROCESS (w)
 		BEGIN
