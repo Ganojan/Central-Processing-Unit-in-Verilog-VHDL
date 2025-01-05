@@ -17,6 +17,14 @@ The CPU integrates several key components to perform arithmetic and logical oper
 ## Tool Used
 - **Quartus II**: Used for development, simulation, and waveform analysis to verify the operation of the CPU.
 
+## Files Included
+
+- **`report.pdf`**: A detailed report documenting the VHDL version of the CPU project, including design explanations and testing results.
+- **`/vhdl/`**: Contains the VHDL source code files for all CPU components, including memory latches, FSM, ALU, decoder, and control unit.
+- **`/verilog/`**: Contains the Verilog source code files for all CPU components, following the conversion from VHDL and refinement for flawless operation.
+- **`/diagrams/`**: Screenshots of the complete block diagram for the three ALUs, available for both the Verilog and VHDL versions of the project.
+
+
 ## How It Works  
 The components of this CPU work in unison to execute operations as instructed:  
 
