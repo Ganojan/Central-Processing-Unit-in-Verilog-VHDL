@@ -19,10 +19,10 @@ The CPU integrates several key components to perform arithmetic and logical oper
 
 ## Files Included
 
-- **`report.pdf`**: A detailed report documenting the VHDL version of the CPU project, including design explanations and testing results.
-- **`/vhdl/`**: Contains the VHDL source code files for all CPU components, including memory latches, FSM, ALU, decoder, and control unit.
-- **`/verilog/`**: Contains the Verilog source code files for all CPU components, following the conversion from VHDL and refinement for flawless operation.
-- **`/diagrams/`**: Screenshots of the complete block diagram for the three ALUs, available for both the Verilog and VHDL versions of the project.
+- **PDF Report for VHDL Version**: A detailed report documenting the VHDL version of the CPU project, including design explanations and testing results.
+- **VHDL Code Files**: Contains the VHDL and Verilog source code files for all CPU components, including memory latches, FSM, ALU, decoder, and control unit.
+- **Verilog Code Files**: Contains the Verilog source code files for all CPU components, following the conversion from VHDL and refinement for flawless operation.
+- **Block Diagram Screenshots for VHDL and Verilog File**: Screenshots of the complete block diagram for the three ALUs, available for both the Verilog and VHDL versions of the project.
 
 
 ## How It Works  
