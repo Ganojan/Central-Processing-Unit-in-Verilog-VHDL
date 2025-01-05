@@ -3,15 +3,15 @@ USE ieee.std_logic_1164.all;
 USE ieee.std_logic_unsigned.all;
 USE ieee.numeric_std.all;
 
-ENTITY ALU IS
+ENTITY ALU1 IS
 PORT(				clk : in	STD_LOGIC;
 					A,B : in	STD_LOGIC_VECTOR(7 DOWNTO 0); -- 8-bit inputs A & B from Reg. 1 & Reg. 2
 				opcode : in	STD_LOGIC_VECTOR(15 DOWNTO 0); -- 8-bit opcode from Decoder
 				R1, R2 : out STD_LOGIC_VECTOR(3 DOWNTO 0); -- two 4-bit results
 				negative : out	STD_LOGIC);
-END ALU;
+END ALU1;
 
-ARCHITECTURE calculation OF ALU IS
+ARCHITECTURE calculation OF ALU1 IS
 SIGNAL Reg1, Reg2, Result : STD_LOGIC_VECTOR(7 DOWNTO 0) := (OTHERS => '0');
 
 BEGIN
