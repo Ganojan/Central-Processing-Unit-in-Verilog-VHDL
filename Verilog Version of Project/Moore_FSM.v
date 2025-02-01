@@ -27,7 +27,7 @@ end
 always @(currentstate,data_in) begin
  case(currentstate)
  
- s0:begin //At currentstate s0, if data_in is 0, next state is s1, else next state is same state, s0. Corresponding tudent_id 'primary output' is attached the state.
+ s0:begin //At currentstate s0, if data_in is 1, next state is s1; else if data_in is 0, next state is same state, s0. Corresponding student_id 'primary output' is attached the state.
 	if(data_in == 1)
 		next_state = s1;
 	else
